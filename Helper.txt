@@ -1,0 +1,5 @@
+# Guardar TODAS las métricas en un archivo
+k6 run --out json=smoke-test.json smoke.js
+
+# Guardar solo el resumen de los resultados
+k6 run --summary-export=results.json script.js
